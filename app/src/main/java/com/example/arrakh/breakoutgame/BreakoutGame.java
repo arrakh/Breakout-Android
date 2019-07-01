@@ -69,7 +69,7 @@ public class BreakoutGame extends Activity {
             screenX = size.x;
             screenY = size.y;
 
-            paddle = new Paddle(screenX, screenY);
+            paddle = new Paddle(screenX, screenY - 50);
             ball = new Ball(screenX, screenY);
             soundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
 
